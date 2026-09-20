@@ -1,7 +1,34 @@
 # Computer-investigation Report #
 Hardware, Performance and Stress-Test Investigation
 
-*Team: Felicity, Tshifhiwa, Mahlatsi, Opang  and Kyle*
+*Team: Felicity, Tshifhiwa, Mahlatsi, Opang and Kyle*
+
+## Table of Contents
+| Topic Number | Section |
+|---:|---|
+| 1 | [Investigation Overview](#investigation-overview) |
+| 2 | [Evidence Register](#evidence-register) |
+| 3 | [Baseline](#baseline) |
+| 4 | [BIOS](#bios) |
+| 5 | [CPU](#cpu) |
+| 6 | [RAM](#ram) |
+| 7 | [Operating System](#operating-system) |
+| 8 | [Background Processes](#background-processes) |
+| 9 | [Network Investigation](#network-investigation) |
+| 10 | [Cooling](#cooling) |
+| 11 | [Workload](#workload) |
+| 12 | [Monitor](#monitor) |
+| 13 | [Reproduction](#reproduction) |
+| 14 | [Diagnostics](#diagnostics) |
+| 15 | [Storage and SMART diagnostics](#storage-and-smart-diagnostics) |
+| 16 | [Physical Hardware and Network](#physical-hardware-and-network) |
+| 17 | [Startup Performance](#startup-performance) |
+| 18 | [Security Audit](#security-audit) |
+| 19 | [Root Cause](#root-cause) |
+| 20 | [Recommendations](#recommendations) |
+| 21 | [Overall Findings](#overall-findings) |
+| 22 | [Commands Used](#commands-used) |
+| 23 | [Tags and Codes](#tags-and-codes) |
 
 ## Investigation Overview ##
 This investigation documents our findings during our testing phase on 14th September . Our Team conducted an inspection of selected computers in the office to identify hardware and performance-related issues. This inspection was conducted to establish a documented baseline and examine the computer performance and issues that may arise from the system in our company. 2. Investigation Structure. The original project is organized into Baseline ,BIOS ,CPU ,RAM ,Operating System ,Background ,Processes Network ,Investigation ,Cooling ,Workload ,Monitor ,Reproduction ,Diagnostics ,Storage and SMART diagnostics, Physical Hardware and Network,Startup Performance,Security Audit ,Root Cause ,Recommendations ,Overall Findings, ,Commands used,Tags and Code. The supplied evidence directly supports several of these areas and only partially supports others.
@@ -101,7 +128,7 @@ The workload increased using the Linux stress utility while htop was used to obs
 <img width="552" height="573" alt="image" src="https://github.com/user-attachments/assets/90019218-c2dd-48a5-99b1-e9ae3848bf29" />
 
 ## Monitor ##
-We had a monitor that had and colour issue, it was unable to display properly, even when we put in on factory default it reminds to have this purple colour the issue is related to the cable responsible for transmitting the video signal from the computer to the display. We found that the issue was with the VGA cable and replacing the cable with HDMI made the monitor have colour. I would say monitor sizes are optimal and can give bad results when making something due to difference in the resolutions for certain applications and sites.
+We had a monitor that had colour issues. It was unable to display properly, even when we set it back to factory default it reminds to have this purple colour. The issue is related to the cable responsible for transmitting the video signal from the computer to the display. We found that the issue was with the VGA cable and replacing the cable with HDMI made the monitor have colour. I would say monitor sizes are optimal and can give bad results when making something due to difference in the resolutions for certain applications and sites.
 <img width="743" height="414" alt="image" src="https://github.com/user-attachments/assets/01fe5319-fbfc-4a32-b077-20d1bb88cde2" />
 
 <img width="1600" height="719" alt="image" src="https://github.com/user-attachments/assets/ca8d2a99-30e7-47ed-b33b-d9f1c57d121b" />
